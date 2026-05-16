@@ -145,8 +145,12 @@
 
 ## 飞书文档链接汇总
 
-### 血常规趋势对比表
-- **全量版（24项）：** https://feishu.cn/docx/CZasdE5PRo63qSxlJcUc0zPjnQd (doc_token: CZasdE5PRo63qSxlJcUc0zPjnQd)
-- **精选版（13项）：** https://feishu.cn/docx/NtdYdlIL1o0eLyxrzqVcyyRenyc (doc_token: NtdYdlIL1o0eLyxrzqVcyyRenyc)
-- **检查指标趋势对比表 v5 核实版：** https://feishu.cn/docx/CkCxdlMr7oON3vxAfEocciVtnUb (doc_token: CkCxdlMr7oON3vxAfEocciVtnUb)
-- ⚠️ 每次有新化验单：同时更新全量版、精选版、v5核实版三个文档
+### 检查指标趋势对比表（全分类，7大类）— 当前版本 v2
+- **全量版v2：** https://feishu.cn/docx/XD5sdrplKoPOF9xkOj4cJPdVnDd (doc_token: XD5sdrplKoPOF9xkOj4cJPdVnDd)
+- **精选版v2：** https://feishu.cn/docx/C33edW3vJoZs2bx8zwqcWzy5nef (doc_token: C33edW3vJoZs2bx8zwqcWzy5nef)
+- **v5 核实版（旧版，仅作数据参考）：** https://feishu.cn/docx/CkCxdlMr7oON3vxAfEocciVtnUb (doc_token: CkCxdlMr7oON3vxAfEocciVtnUb)
+- 全量版包含：肿瘤标志物(5项) / 肝功能(12项) / 血常规(24项) / 肾功能(5项) / 凝血(9项) / 炎症(1项) / 营养(3项)
+- 精选版包含：每类只保留异常或需重点关注的指标
+- 格式要求：指标名=中文+英文缩写，日期列=日期+医院名
+- ⚠️ 每次有新化验单：同时更新全量版、精选版两个文档（创建全新文档重写，因飞书API无法加列）
+- 已废弃v1: DFmqdgOKOoyhUnxW1AZcENCbnFb / XVhEdcNebo3M9vxsiCBcPSDKnxf（指标无中文名，日期无医院）
