@@ -142,3 +142,11 @@
 - **每次更改后立即备份新版本** — git add -A && git commit && git push
 - 备份策略：改完就推，确保可回滚
 - 绝不允许数据丢失
+
+## 飞书文档链接汇总
+
+### 血常规趋势对比表
+- **全量版（24项）：** https://feishu.cn/docx/CZasdE5PRo63qSxlJcUc0zPjnQd (doc_token: CZasdE5PRo63qSxlJcUc0zPjnQd)
+- **精选版（13项）：** https://feishu.cn/docx/NtdYdlIL1o0eLyxrzqVcyyRenyc (doc_token: NtdYdlIL1o0eLyxrzqVcyyRenyc)
+- **检查指标趋势对比表 v5 核实版：** https://feishu.cn/docx/CkCxdlMr7oON3vxAfEocciVtnUb (doc_token: CkCxdlMr7oON3vxAfEocciVtnUb)
+- ⚠️ 每次有新化验单：同时更新全量版、精选版、v5核实版三个文档
