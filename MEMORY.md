@@ -154,7 +154,7 @@
 
 ### 检查指标趋势对比表（全分类，7大类）— 当前版本 v3
 - **全量版v3：** https://feishu.cn/docx/DXgadNqS5oSrx2x0nqhcgDRenOe (doc_token: DXgadNqS5oSrx2x0nqhcgDRenOe)
-- **精选版v3：** https://feishu.cn/docx/X8Mbdvsbuo3d1RxmBsYcZkoynnf (doc_token: X8Mbdvsbuo3d1RxmBsYcZkoynnf)
+- **精选版v4：** https://feishu.cn/docx/Ksigd6k9vo550mxbbCGcreT8neh (doc_token: Ksigd6k9vo550mxbbCGcreT8neh)
 - **v5 核实版（旧版，仅作数据参考）：** https://feishu.cn/docx/CkCxdlMr7oON3vxAfEocciVtnUb (doc_token: CkCxdlMr7oON3vxAfEocciVtnUb)
 - 全量版包含：肿瘤标志物(5项) / 肝功能(12项) / 血常规(24项) / 肾功能(5项) / 凝血(9项) / 炎症(1项) / 营养(3项)
 - 精选版包含：每类只保留异常或需重点关注的指标
