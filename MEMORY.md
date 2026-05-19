@@ -50,12 +50,14 @@
 |------|------|------|
 | 2026-03-30 | 162.3 μmol/L | 基线（重度黄疸） |
 | 2026-05-09 | 53.8 μmol/L | **↓67%** ✅ 明显改善 |
+| 2026-05-19 | 29.9 μmol/L | **↓82%** ✅ 接近正常 |
 
 ### DBIL 直接胆红素
 | 日期 | 数值 | 变化 |
 |------|------|------|
 | 2026-03-30 | 133 μmol/L | 基线 |
 | 2026-05-09 | 21.3 μmol/L | **↓84%** ✅ |
+| 2026-05-19 | 22.3 μmol/L | ⚠️ 基本持平 |
 
 ### WBC 白细胞（化疗骨髓抑制监测）
 | 日期 | 数值 | 化疗节点 | 变化 |
@@ -153,8 +155,8 @@
 ## 飞书文档链接汇总
 
 ### 检查指标趋势对比表（全分类，7大类）— 当前版本 v3
-- **全量版v4：** https://feishu.cn/docx/Stzadi6ePo9I27xin7HcFYzTnYd (doc_token: Stzadi6ePo9I27xin7HcFYzTnYd)
-- **精选版v4：** https://feishu.cn/docx/Ksigd6k9vo550mxbbCGcreT8neh (doc_token: Ksigd6k9vo550mxbbCGcreT8neh)
+- **全量版v5：** https://feishu.cn/docx/PRRqdQnWGonFA6x2n2ocTyw6nuh (doc_token: PRRqdQnWGonFA6x2n2ocTyw6nuh)
+- **精选版v5：** https://feishu.cn/docx/LTTjdhIxcojvXQxBKCjcEwSyn8b (doc_token: LTTjdhIxcojvXQxBKCjcEwSyn8b)
 - **v5 核实版（旧版，仅作数据参考）：** https://feishu.cn/docx/CkCxdlMr7oON3vxAfEocciVtnUb (doc_token: CkCxdlMr7oON3vxAfEocciVtnUb)
 - 全量版包含：肿瘤标志物(5项) / 肝功能(12项) / 血常规(24项) / 肾功能(5项) / 凝血(9项) / 炎症(1项) / 营养(3项)
 - 精选版包含：每类只保留异常或需重点关注的指标
