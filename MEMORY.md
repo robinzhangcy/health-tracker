@@ -73,6 +73,7 @@
 | 2026-05-16 | 3.42 ×10⁹/L | C1D5 | **↓32%** ⚠️ 轻度低于下限(3.50) |
 | 2026-05-19 | 4.48 ×10⁹/L | C1D8 | ✅ **恢复正常**（↑31%） |
 | 2026-05-28 | 3.54 ×10⁹/L | C1D17 | ✅ 正常（刚达下限3.50） |
+| 2026-05-31 | **2.63 ×10⁹/L** | C2D6 | **⚠️⚠️ II度白细胞减少！** |
 
 ### NEUT 中性粒细胞绝对值（化疗安全指标）
 | 日期 | 数值 | 化疗节点 | 变化 |
@@ -81,6 +82,7 @@
 | 2026-05-19 | 2.21 ×10⁹/L | C1D8 | ✅ 正常，轻度回升 |
 | 2026-05-24 | 1.71 ×10⁹/L | C1D13 | **⚠️ 低于正常（I度粒减）**，仍≥1.5 |
 | 2026-05-28 | 2.21 ×10⁹/L | C1D17 | ✅ 恢复正常 |
+| 2026-05-31 | **1.18 ×10⁹/L** | C2D6 | **⚠️⚠️ II度粒减（<1.5）！感染风险↑** |
 
 ### HGB 血红蛋白（贫血监测）
 | 日期 | 数值 | 变化 |
@@ -88,7 +90,8 @@
 | 2026-05-09 | 100 g/L | 中度贫血 |
 | 2026-05-16 | 96 g/L | **↓4%** ⚠️ 中度贫血持续 |
 | 2026-05-19 | 94 g/L | **↓2%** ⚠️ 持续下降，生血宝5/17起用 |
-| 2026-05-28 | **82 g/L** | **↓13%** ⚠️⚠️ **中-重度贫血，加速恶化，接近输血指征** |
+| 2026-05-28 | **82 g/L** | **↓13%** ⚠️⚠️ 中-重度贫血 |
+| 2026-05-31 | **85 g/L** | **略回升+3** ⚠️ 中度贫血（生血宝可能起效） |
 
 ### PLT 血小板
 | 日期 | 数值 | 变化 |
@@ -96,7 +99,8 @@
 | 2026-05-09 | 215 ×10⁹/L | 正常 |
 | 2026-05-16 | 216 ×10⁹/L | ✅ 稳定正常 |
 | 2026-05-19 | 169 ×10⁹/L | ↓22% ⚠️ 仍正常但有下降趋势 |
-| 2026-05-28 | 333 ×10⁹/L | ✅ **大幅恢复**（↑97%），接近正常上限 |
+| 2026-05-28 | 333 ×10⁹/L | ✅ **大幅恢复**（↑97%） |
+| 2026-05-31 | 321 ×10⁹/L | ✅ 正常稳定 |
 
 ## 当前用药
 
@@ -168,9 +172,10 @@
 
 ## 飞书文档链接汇总
 
-### 检查指标趋势对比表（全分类，7大类）— 当前版本 v3
-- **全量版v6：** https://feishu.cn/docx/QNAUdhukAoiRG6xiXL5ckTd7nQh (doc_token: QNAUdhukAoiRG6xiXL5ckTd7nQh)
-- **精选版v6：** https://feishu.cn/docx/NZTFdXUnWomg3WxgYhLcD7RunLc (doc_token: NZTFdXUnWomg3WxgYhLcD7RunLc)
+### 检查指标趋势对比表（全分类，7大类）— 当前版本 v7
+- **全量版v7：** https://feishu.cn/docx/PtcXdFnWEo8mDRxTNUAcaKCCnSb (doc_token: PtcXdFnWEo8mDRxTNUAcaKCCnSb)
+- **精选版v7：** https://feishu.cn/docx/Oh9hdidSVoNcezxcq2CcDnh2nKy (doc_token: Oh9hdidSVoNcezxcq2CcDnh2nKy)
+- 旧版v6全量：QNAUdhukAoiRG6xiXL5ckTd7nQh / 精选：NZTFdXUnWomg3WxgYhLcD7RunLc
 - 旧版v5全量：PRRqdQnWGonFA6x2n2ocTyw6nuh / 精选：LTTjdhIxcojvXQxBKCjcEwSyn8b
 - **v5 核实版（旧版，仅作数据参考）：** https://feishu.cn/docx/CkCxdlMr7oON3vxAfEocciVtnUb (doc_token: CkCxdlMr7oON3vxAfEocciVtnUb)
 - 全量版包含：肿瘤标志物(5项) / 肝功能(12项) / 血常规(24项) / 肾功能(5项) / 凝血(9项) / 炎症(1项) / 营养(3项)
