@@ -175,10 +175,13 @@
 
 ## 飞书文档链接汇总
 
-### 检查指标趋势对比表（全分类，7大类）— 当前版本 v9
-- **全量版v9：** https://feishu.cn/docx/W0sAd8RtjohyaAxOfK6ctfi2npd (doc_token: W0sAd8RtjohyaAxOfK6ctfi2npd) — 含6/14 C3D7数据
-- **精选版v9：** https://feishu.cn/docx/RawDd61iUohwQzxoj3lcShyEnbe (doc_token: RawDd61iUohwQzxoj3lcShyEnbe) — 含6/14 C3D7数据
-- 旧版v8全量：PTyMdRV6ho2uUPxAaKdc0EqGnYd / 精选：N919dveDxoqDlFxJLH2coJ0hnWh
+### 检查指标趋势对比表（全分类，7大类）— 当前可用版本 v8（v9 创建失败为空壳，勿用）
+- **⚠️ v9 是空壳，仅有标题，未填入表格内容。不要给家人 v9 链接。** 若需 v9 必须先重建。
+  - 空 v9 全量：W0sAd8RtjohyaAxOfK6ctfi2npd
+  - 空 v9 精选：RawDd61iUohwQzxoj3lcShyEnbe
+- **当前默认链接（v8，含到 6/11 C2D17 数据）：**
+  - **全量版v8：** https://feishu.cn/docx/PTyMdRV6ho2uUPxAaKdc0EqGnYd (doc_token: PTyMdRV6ho2uUPxAaKdc0EqGnYd)
+  - **精选版v8：** https://feishu.cn/docx/N919dveDxoqDlFxJLH2coJ0hnWh (doc_token: N919dveDxoqDlFxJLH2coJ0hnWh)
 - 旧版v7全量：PtcXdFnWEo8mDRxTNUAcaKCCnSb / 精选：Oh9hdidSVoNcezxcq2CcDnh2nKy
 - 旧版v6全量：QNAUdhukAoiRG6xiXL5ckTd7nQh / 精选：NZTFdXUnWomg3WxgYhLcD7RunLc
 - 旧版v5全量：PRRqdQnWGonFA6x2n2ocTyw6nuh / 精选：LTTjdhIxcojvXQxBKCjcEwSyn8b
