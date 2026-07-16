@@ -1,0 +1,63 @@
+@page {
+  size: A4;
+  margin: 18mm 16mm;
+  @bottom-right { content: counter(page) " / " counter(pages); }
+}
+body {
+  font-family: "Noto Serif CJK SC", "Noto Sans CJK SC", "Source Han Serif SC", serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: #1a1a1a;
+  max-width: 100%;
+  margin: 0;
+}
+h1 {
+  font-size: 20pt; color: #b91c1c; border-bottom: 3px solid #b91c1c;
+  padding-bottom: 8px; margin-top: 0; page-break-before: avoid;
+}
+h2 {
+  font-size: 14pt; color: #1e40af; border-left: 5px solid #1e40af;
+  padding: 4px 10px; background: #eff6ff; margin-top: 22px;
+  page-break-after: avoid;
+}
+h3 {
+  font-size: 12pt; color: #7c2d12; margin-top: 16px;
+  page-break-after: avoid;
+}
+h4 { font-size: 11pt; color: #374151; }
+table {
+  border-collapse: collapse; width: 100%; margin: 10px 0;
+  font-size: 9.5pt; page-break-inside: avoid;
+}
+th {
+  background: #1e40af; color: white; padding: 6px 8px;
+  text-align: left; font-weight: 600; border: 1px solid #1e3a8a;
+}
+td {
+  padding: 5px 8px; border: 1px solid #cbd5e1; vertical-align: top;
+}
+tr:nth-child(even) td { background: #f8fafc; }
+code {
+  background: #f1f5f9; padding: 1px 5px; border-radius: 3px;
+  font-family: "DejaVu Sans Mono", monospace; font-size: 9.5pt;
+}
+pre {
+  background: #f1f5f9; padding: 10px; border-left: 4px solid #64748b;
+  border-radius: 3px; overflow-x: auto; font-size: 9pt;
+  page-break-inside: avoid;
+}
+strong { color: #b91c1c; }
+blockquote {
+  border-left: 4px solid #f59e0b; background: #fffbeb;
+  padding: 8px 12px; margin: 10px 0; color: #78350f;
+}
+ul, ol { margin: 6px 0; padding-left: 22px; }
+li { margin: 2px 0; }
+hr { border: none; border-top: 2px dashed #94a3b8; margin: 20px 0; }
+/* 报告标题页样式 */
+.cover {
+  text-align: center; padding: 40mm 0 20mm 0;
+  border-bottom: 3px double #1e40af; margin-bottom: 20mm;
+}
+</EOF>
+echo "css ok"
