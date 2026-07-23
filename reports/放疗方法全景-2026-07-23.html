@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>放疗与局部治疗方法全景循证综述 v1.0 (2026-07-23)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="pdf.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">放疗与局部治疗方法全景循证综述 v1.0 (2026-07-23)</h1>
+</header>
+<h1
+id="放疗与局部治疗方法全景循证综述">放疗与局部治疗方法全景循证综述</h1>
+<p><strong>版本：</strong> v1.0 <strong>生成日期：</strong> 2026-07-23
+<strong>编写：</strong> 康康 💪（家庭健康管理助手）
+<strong>用途：</strong> 家庭内部循证参考，非诊断/治疗建议；具体决策需
+MDT <strong>病例背景：</strong> 张建来，68 岁，Ⅳ 期 mPDAC + 肝多发转移 +
+Grade 3 胃衰竭 + SEMS 在位 + 胆道支架待换 + ECOG 2-3</p>
+<hr />
+<h2 id="️-阅读前先看一句话结论">⚠️ 阅读前先看：一句话结论</h2>
+<blockquote>
+<p><strong>当前阶段（2026-07 下旬）放疗不是选项。</strong> 全身治疗（AG
+桥接 / GFH375 试验 / nal-IRI 兜底）+ 局部支持（NJ 管重建营养通道 /
+EUS-HGS 换胆道支架 /
+抗生素升级）是主线。稳定后（营养重建、感染控制、ECOG 恢复至
+0-1）仅在特定姑息场景（癌痛、骨转移、局限性肿瘤压迫）考虑短程姑息 EBRT
+或 SBRT。任何"重离子/质子/海扶刀/纳米刀根治胰腺癌"的营销均无 Ⅳ
+期循证支撑，见第五部分骗局识别。</p>
+</blockquote>
+<hr />
+<h2 id="目录">目录</h2>
+<ul>
+<li>第一部分：放疗方法总览对比表（20 种）</li>
+<li>第二部分：20 种方法逐一详解
+<ul>
+<li>A. 光子外照射（3D-CRT / IMRT / VMAT / IGRT / TOMO / SBRT /
+CyberKnife / MR-Linac / Gamma Knife）</li>
+<li>B. 粒子放疗（质子 / 重离子 / BNCT）</li>
+<li>C. 内照射（125I 粒子 / IORT / HDR 近距离）</li>
+<li>D. 消融性局部治疗（HIFU 海扶刀 / IRE 纳米刀 / RFA-MWA / Cryo）</li>
+<li>E. 系统性放射性药物（177Lu / 90Y-SIRT）</li>
+</ul></li>
+<li>第三部分：PDAC 放疗循证核心结论（NCCN / ASTRO / ESMO）</li>
+<li>第四部分：本例患者三层决策</li>
+<li>第五部分：家属沟通版一页纸速览 + 骗局识别</li>
+</ul>
+<hr />
+<h2 id="第一部分放疗方法总览对比表">第一部分：放疗方法总览对比表</h2>
+<table>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>方法</th>
+<th>类别</th>
+<th>单次剂量</th>
+<th>分次</th>
+<th>精度</th>
+<th>PDAC 循证等级</th>
+<th>中国主要机构</th>
+<th>费用估算</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>3D-CRT</td>
+<td>光子 EBRT</td>
+<td>1.8-2 Gy</td>
+<td>25-28 次</td>
+<td>±5-10 mm</td>
+<td>历史技术，已被 IMRT 取代</td>
+<td>全国基层医院普及</td>
+<td>医保 1-3 万</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>IMRT</td>
+<td>光子 EBRT</td>
+<td>1.8-2 Gy</td>
+<td>25-28 次</td>
+<td>±3-5 mm</td>
+<td>局部晚期/新辅助（LAP07）</td>
+<td>全国三甲</td>
+<td>医保 3-6 万</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>VMAT / RapidArc</td>
+<td>光子 EBRT</td>
+<td>1.8-2.5 Gy</td>
+<td>5-28 次</td>
+<td>±3-5 mm</td>
+<td>同 IMRT，效率更高</td>
+<td>全国三甲</td>
+<td>医保 3-6 万</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>IGRT</td>
+<td>光子技术叠加</td>
+<td>—</td>
+<td>依方案</td>
+<td>±1-3 mm</td>
+<td>位置精度技术，非独立疗法</td>
+<td>全国三甲</td>
+<td>附加 0.5-1 万</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>TOMO 刀</td>
+<td>光子 EBRT</td>
+<td>1.8-2.5 Gy</td>
+<td>5-28 次</td>
+<td>±1-3 mm</td>
+<td>长靶区+多靶点场景优选</td>
+<td>301、北大肿瘤、协和、复旦肿瘤等 40+ 家</td>
+<td>医保 5-10 万</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>SBRT/SABR</td>
+<td>光子 EBRT</td>
+<td>5-10 Gy</td>
+<td>3-5 次</td>
+<td>±1-3 mm</td>
+<td>⭐ LAPC 二级证据（LAP07/A021501/MASTERPLAN）</td>
+<td>301、北大肿瘤、协和、复旦肿瘤</td>
+<td>医保 5-15 万</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>射波刀 CyberKnife</td>
+<td>光子 EBRT</td>
+<td>6-10 Gy</td>
+<td>3-5 次</td>
+<td>±1 mm 呼吸追踪</td>
+<td>⭐ LAPC/寡转移 SBRT 首选设备之一</td>
+<td>301、天津肿瘤、上海东方、深圳陆道培等</td>
+<td>自费 15-30 万</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>MR-Linac（Unity/MRIdian）</td>
+<td>光子 EBRT + MR 引导</td>
+<td>5-10 Gy</td>
+<td>3-5 次</td>
+<td>±1 mm 实时 MR</td>
+<td>⭐⭐ SMART 试验（PDAC 单独证据）</td>
+<td>上海肿瘤、中山肿瘤、协和（少数）</td>
+<td>自费 20-40 万</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Gamma Knife 伽玛刀</td>
+<td>光子 SRS</td>
+<td>15-25 Gy</td>
+<td>1 次</td>
+<td>±0.5 mm</td>
+<td>❌ 仅颅内适应证，PDAC 不用</td>
+<td>全国三甲</td>
+<td>医保/自费 5-15 万</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>质子刀 Proton</td>
+<td>粒子</td>
+<td>1.8-2 Gy 或 5-10 Gy</td>
+<td>5-28 次</td>
+<td>±1-3 mm 带 Bragg 峰</td>
+<td>Ⅱ 期证据（MGH/JHU 单臂）</td>
+<td>上海质子重离子中心、北京协和质子（在建）、山东万杰、日本万赛</td>
+<td>自费 30-50 万</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>重离子（碳离子）</td>
+<td>粒子</td>
+<td>4-5 GyE</td>
+<td>8-12 次</td>
+<td>±1-3 mm，RBE 2-3×</td>
+<td>Ⅱ 期证据（GUNMA/千叶 QST）</td>
+<td>上海质子重离子中心（SPHIC）、兰州近物所、日本 QST、德国 HIT</td>
+<td>自费 30-60 万</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>BNCT 硼中子俘获</td>
+<td>粒子</td>
+<td>单次高剂量</td>
+<td>1-2 次</td>
+<td>细胞级选择性</td>
+<td>头颈/脑循证，PDAC 探索期</td>
+<td>厦门弘爱、南京 BNCT 中心（在建）、日本住友</td>
+<td>自费 30-100 万</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>125I 粒子植入</td>
+<td>近距离</td>
+<td>累积 100-160 Gy</td>
+<td>一次植入</td>
+<td>亚 mm（针尖）</td>
+<td>Ⅱ 期证据（LAPC 中国专家共识）</td>
+<td>301、北大肿瘤、天津肿瘤</td>
+<td>医保 3-8 万</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>IORT 术中放疗</td>
+<td>术中 EBRT</td>
+<td>10-20 Gy</td>
+<td>1 次</td>
+<td>术野直视</td>
+<td>历史技术，PDAC 已边缘化</td>
+<td>少数中心（协和、301）</td>
+<td>医保 3-6 万</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>HDR 高剂量率近距离</td>
+<td>近距离</td>
+<td>5-8 Gy</td>
+<td>3-5 次</td>
+<td>mm 级</td>
+<td>主要用于妇科/前列腺，PDAC 罕用</td>
+<td>全国三甲</td>
+<td>医保 2-5 万</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>HIFU 海扶刀</td>
+<td>超声热消融（<strong>非放射</strong>）</td>
+<td>—</td>
+<td>1-2 次</td>
+<td>±3 mm 焦点</td>
+<td>Ⅱ 期证据（PDAC 姑息止痛，NCT02323776 等）</td>
+<td>重庆海扶、301、北大肿瘤</td>
+<td>自费 5-15 万</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>IRE 纳米刀</td>
+<td>电场消融（<strong>非放射</strong>）</td>
+<td>—</td>
+<td>1 次 3-4 电极</td>
+<td>亚 mm</td>
+<td>⭐ LAPC Ⅱ/Ⅲ 期证据（Martin 2015 <em>Ann
+Surg</em>；NCT01897454）</td>
+<td>复旦肿瘤、301、北大肿瘤、天津肿瘤</td>
+<td>自费 15-25 万</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>RFA/MWA 射频/微波</td>
+<td>热消融（<strong>非放射</strong>）</td>
+<td>—</td>
+<td>1 次</td>
+<td>mm 级</td>
+<td>主要用于肝转移（＜3 cm）</td>
+<td>全国三甲介入科</td>
+<td>医保 1-3 万/灶</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Cryo 冷冻消融</td>
+<td>冷冻（<strong>非放射</strong>）</td>
+<td>—</td>
+<td>1-2 次</td>
+<td>mm 级</td>
+<td>有限证据，PDAC 应用少</td>
+<td>少数中心</td>
+<td>自费 5-10 万</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>177Lu / 90Y-SIRT</td>
+<td>系统性放射性药物</td>
+<td>依核素</td>
+<td>1-4 次</td>
+<td>分子靶向</td>
+<td>❌ PDAC 无 PSMA/SSTR 表达，不适用；90Y-SIRT 仅用于肝转移优势灶</td>
+<td>少数中心</td>
+<td>自费 15-40 万</td>
+</tr>
+</tbody>
+</table>
+<p><strong>图例：</strong> ⭐ = PDAC 有 Ⅱ 期以上证据；⭐⭐ = PDAC
+有专门临床试验证据；❌ = PDAC 不适用</p>
+<hr />
+<h2 id="第二部分20-种方法逐一详解">第二部分：20 种方法逐一详解</h2>
+<h3 id="a-光子外照射photon-external-beam-radiotherapy-ebrt">A.
+光子外照射（Photon External Beam Radiotherapy, EBRT）</h3>
+<h4 id="1-3d-crt三维适形放疗">1. 3D-CRT（三维适形放疗）</h4>
+<ul>
+<li><strong>原理</strong>：CT 定位 → 三维重建 →
+多角度固定野照射，剂量分布"适形"肿瘤外形。<strong>技术基线</strong>。</li>
+<li><strong>典型剂量</strong>：1.8-2 Gy × 25-28 次 = 45-56 Gy</li>
+<li><strong>精度</strong>：±5-10 mm</li>
+<li><strong>优势</strong>：普及率最高，几乎所有三甲医院均有</li>
+<li><strong>局限</strong>：正常组织受量高于 IMRT，PDAC 场景已被
+IMRT/VMAT 取代</li>
+<li><strong>PDAC 循证</strong>：历史技术，NCCN 已不推荐作为独立方案；被
+IMRT 取代</li>
+<li><strong>中国机构</strong>：全国基层医院普及</li>
+<li><strong>费用</strong>：医保约 1-3 万</li>
+<li><strong>对本例适用性</strong>：❌ <strong>不推荐</strong>
+<ul>
+<li>精度低，胰头周围危及器官（十二指肠、SEMS、胆道支架、胃）多，受量风险高</li>
+<li>已有更精准替代方案</li>
+</ul></li>
+</ul>
+<h4 id="2-imrtintensity-modulated-radiotherapy-调强放疗">2.
+IMRT（Intensity-Modulated Radiotherapy 调强放疗）</h4>
+<ul>
+<li><strong>原理</strong>：多叶准直器动态调节束流强度，实现凹陷型剂量分布，避开危及器官</li>
+<li><strong>典型剂量</strong>：1.8-2 Gy × 25-28 次 = 45-56
+Gy（常规分割）；或 SIB 同期加量到 55-63 Gy</li>
+<li><strong>精度</strong>：±3-5 mm</li>
+<li><strong>优势</strong>：目前光子放疗主流；对胰腺周围复杂解剖有优势</li>
+<li><strong>局限</strong>：呼吸运动伪影；分次多、疗程 5-6 周</li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li>LAP07 试验（Hammel et al. <em>JAMA</em> 2016, PMID: 27139057）：LAPC
+诱导化疗 4 月后随机 CRT vs 化疗，OS 无显著差异（15.2 vs 16.5 月）→
+<strong>LAPC 常规 CRT 无 OS 获益</strong>，但局部控制改善</li>
+<li>NCCN v2.2025 PDAC：LAPC 诱导化疗后可选（Category 2A）</li>
+</ul></li>
+<li><strong>中国机构</strong>：全国三甲</li>
+<li><strong>费用</strong>：医保约 3-6 万</li>
+<li><strong>对本例适用性</strong>：⚠️
+<strong>当前不适合，稳定后姑息可考虑</strong>
+<ul>
+<li>Ⅳ 期广泛肝转移，NCCN 不推荐原发灶常规 CRT</li>
+<li>5-6 周疗程，与营养通道重建、二线化疗节奏冲突</li>
+<li>若稳定后出现难治性癌痛，可考虑短程姑息剂量（30 Gy/10 次）</li>
+</ul></li>
+</ul>
+<h4 id="3-vmat--rapidarc容积调强弧形治疗">3. VMAT /
+RapidArc（容积调强弧形治疗）</h4>
+<ul>
+<li><strong>原理</strong>：机架 360° 旋转同时动态调节束流，一次弧完成
+IMRT 剂量分布</li>
+<li><strong>典型剂量</strong>：同 IMRT，效率更高（单次 2-5 分钟 vs IMRT
+10-20 分钟）</li>
+<li><strong>精度</strong>：±3-5 mm</li>
+<li><strong>优势</strong>：治疗时间短、患者耐受更好、剂量分布常优于静态
+IMRT</li>
+<li><strong>PDAC 循证</strong>：等同 IMRT，是 IMRT 的技术升级</li>
+<li><strong>中国机构</strong>：全国三甲</li>
+<li><strong>费用</strong>：医保约 3-6 万</li>
+<li><strong>对本例适用性</strong>：⚠️ <strong>同 IMRT</strong></li>
+</ul>
+<h4 id="4-igrtimage-guided-radiotherapy-图像引导放疗">4.
+IGRT（Image-Guided Radiotherapy 图像引导放疗）</h4>
+<ul>
+<li><strong>原理</strong>：治疗前/中用
+kV/CBCT/超声/表面成像校准位置，是<strong>技术叠加</strong>而非独立疗法</li>
+<li><strong>精度</strong>：±1-3 mm</li>
+<li><strong>优势</strong>：显著减少摆位误差</li>
+<li><strong>PDAC 循证</strong>：ASTRO 2019
+定位放疗指南推荐所有胰腺放疗使用 IGRT</li>
+<li><strong>中国机构</strong>：全国三甲现代直线加速器标配</li>
+<li><strong>费用</strong>：附加约 0.5-1 万</li>
+<li><strong>对本例适用性</strong>：⚠️
+作为技术叠加<strong>只在实施其他放疗时相关</strong></li>
+</ul>
+<h4 id="5-tomo-刀tomotherapy-螺旋断层放疗">5. TOMO 刀（Tomotherapy
+螺旋断层放疗）</h4>
+<ul>
+<li><strong>原理</strong>：直线加速器嵌入 CT
+环内，扇形束螺旋进床照射，等于"CT 式 IMRT"；每次治疗前自动 CT 配准</li>
+<li><strong>典型剂量</strong>：1.8-2.5 Gy × 5-28 次</li>
+<li><strong>精度</strong>：±1-3 mm</li>
+<li><strong>优势</strong>：
+<ul>
+<li><strong>长靶区</strong>（如全脊柱、多灶）一次搞定</li>
+<li>剂量均匀性好</li>
+<li>IGRT 内置</li>
+</ul></li>
+<li><strong>局限</strong>：单次时间较长（10-20
+分钟）；对小病灶精度不如射波刀</li>
+<li><strong>PDAC 循证</strong>：Ⅰ/Ⅱ 期数据，与 IMRT 等效或略优；无 PDAC
+专门 Ⅲ 期证据</li>
+<li><strong>中国机构</strong>：301、北大肿瘤、协和、复旦肿瘤、山东省肿瘤等
+40+ 家</li>
+<li><strong>费用</strong>：医保约 5-10 万</li>
+<li><strong>对本例适用性</strong>：⚠️ <strong>当前不适合</strong>
+<ul>
+<li>长靶区优势对本例不必要（原发灶+局限肝转移可不必用 TOMO）</li>
+<li>疗程与营养/二线化疗冲突</li>
+<li>稳定后如需多灶姑息可考虑</li>
+</ul></li>
+</ul>
+<h4 id="6-sbrt--sabrstereotactic-body-radiotherapy-体部立体定向放疗">6.
+SBRT / SABR（Stereotactic Body Radiotherapy 体部立体定向放疗）</h4>
+<ul>
+<li><strong>原理</strong>：大剂量少分次（5-8 次），亚 mm
+精度，"外科刀"式局部消融</li>
+<li><strong>典型剂量</strong>：5-10 Gy × 3-5 次 = 25-45 Gy（PDAC 常用
+33-40 Gy/5 次）</li>
+<li><strong>精度</strong>：±1-3
+mm，需呼吸控制（ABC/DIBH/门控/追踪）</li>
+<li><strong>优势</strong>：疗程 1-2 周、生活质量好、局部控制率高</li>
+<li><strong>局限</strong>：正常组织需≥1 cm
+安全距离；胰头周围十二指肠/SEMS 是热区</li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li><strong>A021501 试验</strong>（Katz et al. <em>JAMA Oncol</em> 2022,
+PMID: 36107416）：可切除临界 PDAC，mFOLFIRINOX + SBRT vs mFOLFIRINOX
+单药，SBRT 组 2 年 OS <strong>未达终点</strong>（41.9% vs 46.7%）→
+<strong>术前 SBRT 未显示 OS 获益</strong></li>
+<li><strong>MASTERPLAN 试验</strong>（Chang et al. <em>Lancet Oncol</em>
+2023, PMID: 37541263）：LAPC 化疗后 SBRT 局部控制率改善</li>
+<li>Herman 2015 <em>Cancer</em>（PMID: 25940564）：LAPC SBRT 33 Gy/5f Ⅱ
+期，局部控制 78%</li>
+<li>NCCN v2.2025 PDAC：LAPC 诱导化疗后可选（Category 2A）</li>
+</ul></li>
+<li><strong>中国机构</strong>：301、北大肿瘤、协和、复旦肿瘤</li>
+<li><strong>费用</strong>：医保约 5-15 万</li>
+<li><strong>对本例适用性</strong>：⚠️
+<strong>当前禁忌，稳定后姑息可考虑</strong>
+<ul>
+<li><strong>绝对禁忌</strong>：活动感染（PCT 0.700↑）、SEMS
+十二指肠区放射性溃疡/穿孔风险显著</li>
+<li>Ⅳ 期广泛肝转移（NCCN 不推荐 Ⅳ 期原发灶 SBRT）</li>
+<li><strong>若稳定后仅为姑息止痛</strong>：短程 SBRT 6-8 Gy × 3-5f
+可以考虑，但仍需权衡 SEMS 风险</li>
+</ul></li>
+</ul>
+<h4 id="7-射波刀-cyberknife">7. 射波刀 CyberKnife</h4>
+<ul>
+<li><strong>原理</strong>：小型直线加速器装于机械臂，实时 X
+线追踪金标记（Synchrony 系统追踪呼吸运动），无需固定框架</li>
+<li><strong>典型剂量</strong>：SBRT 剂量方案（6-10 Gy × 3-5 次）</li>
+<li><strong>精度</strong>：±1 mm（呼吸追踪时同步）</li>
+<li><strong>优势</strong>：
+<ul>
+<li><strong>实时呼吸追踪</strong>（PDAC 呼吸运动大，天然适配）</li>
+<li>无需刚性固定</li>
+</ul></li>
+<li><strong>局限</strong>：单次时间 30-60
+分钟；追踪需要金标记植入术</li>
+<li><strong>PDAC 循证</strong>：与 SBRT 相同（射波刀是实施 SBRT
+的一种设备），Chuong 2013、Koong 2004、Chang 2009 等系列</li>
+<li><strong>中国机构</strong>：301（老院）、天津肿瘤、上海东方、深圳陆道培（曾）、复旦肿瘤（部分）等约
+20 家</li>
+<li><strong>费用</strong>：自费约 15-30 万</li>
+<li><strong>对本例适用性</strong>：⚠️ <strong>同 SBRT，当前禁忌</strong>
+<ul>
+<li>需植入金标记（活动感染下不宜介入操作）</li>
+<li>疗程虽短但当前无适应证</li>
+<li>稳定后如有难治性癌痛姑息可评估</li>
+</ul></li>
+</ul>
+<h4 id="8-mr-linacelekta-unity--viewray-mridian-磁共振引导直线加速器">8.
+MR-Linac（Elekta Unity / ViewRay MRIdian 磁共振引导直线加速器）</h4>
+<ul>
+<li><strong>原理</strong>：MRI + 直线加速器一体机，每次治疗前 MR 成像 +
+每分钟实时 MR 追踪，<strong>在线自适应放疗</strong>（online
+adaptive）</li>
+<li><strong>典型剂量</strong>：SBRT 高剂量方案（10-12.5 Gy × 5 次 =
+50-62.5 Gy）</li>
+<li><strong>精度</strong>：±1 mm 实时软组织追踪</li>
+<li><strong>优势</strong>：<strong>PDAC 目前技术最优</strong>
+<ul>
+<li>无金标记</li>
+<li>每次实时看胃/十二指肠位置，剂量自适应</li>
+<li>支持"BED&gt;100 Gy"高剂量方案</li>
+</ul></li>
+<li><strong>局限</strong>：设备极少、费用高、疗程仍 5 次</li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li><strong>SMART 试验</strong>（Parikh et al. <em>IJROBP</em> 2023,
+PMID: 36878399）：LAPC/BR-PDAC，MRIdian 50 Gy/5f，2 年 OS
+<strong>53.6%</strong>，Grade ≥3 GI 毒性 <strong>0%</strong> → PDAC
+单独证据最强</li>
+<li>Rudra 2019 <em>Adv Radiat Oncol</em>（PMID: 30775593）：BED&gt;70 Gy
+显著改善 OS</li>
+<li>NCCN v2.2025：LAPC 可选（Category 2A）</li>
+</ul></li>
+<li><strong>中国机构</strong>：
+<ul>
+<li>Elekta Unity：上海肿瘤、中山大学附属肿瘤（广州）、协和（部分）</li>
+<li>ViewRay MRIdian：北京大学国际医院、中山大学附属肿瘤（少数）</li>
+</ul></li>
+<li><strong>费用</strong>：自费约 20-40 万</li>
+<li><strong>对本例适用性</strong>：⚠️
+<strong>当前禁忌，未来姑息不成立</strong>
+<ul>
+<li>Ⅳ 期广泛肝转移，MRIdian 主要证据在 LAPC（非 Ⅳ 期）</li>
+<li>活动感染绝对禁忌</li>
+<li>与 Grade 3 胃衰竭+SEMS 冲突（虽然 MR 精度高但仍不改变绝对禁忌）</li>
+</ul></li>
+</ul>
+<h4 id="9-gamma-knife-伽玛刀">9. Gamma Knife 伽玛刀</h4>
+<ul>
+<li><strong>原理</strong>：201 个 Co-60 源聚焦于一点（Elekta
+Leksell）或旋转伽玛刀（国产），主要用于<strong>颅内病灶</strong></li>
+<li><strong>典型剂量</strong>：单次 15-25 Gy（脑转移/前庭神经瘤等）</li>
+<li><strong>精度</strong>：±0.5 mm，颅骨固定框架</li>
+<li><strong>PDAC 循证</strong>：❌ <strong>无 PDAC
+适应证</strong>；Gamma Knife
+头架无法用于胸腹，"体部伽玛刀"是国产旋转伽玛刀，精度差于 SBRT</li>
+<li><strong>中国机构</strong>：全国三甲（颅内适应证）</li>
+<li><strong>费用</strong>：医保/自费 5-15 万</li>
+<li><strong>对本例适用性</strong>：❌ <strong>不适用</strong>
+<ul>
+<li>除非爸爸出现脑转移（PDAC 罕见，&lt;1%）</li>
+<li>"体部伽玛刀"营销需警惕，精度不及 SBRT/CyberKnife</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="b-粒子放疗particle-therapy">B. 粒子放疗（Particle Therapy）</h3>
+<h4 id="10-质子刀proton-beam-therapy-pbt">10. 质子刀（Proton Beam
+Therapy, PBT）</h4>
+<ul>
+<li><strong>原理</strong>：氢原子核（质子）加速至 60-70%
+光速射入体内，能量在特定深度突然释放（<strong>Bragg peak</strong>
+布拉格峰），峰后剂量急剧降为 0</li>
+<li><strong>典型剂量</strong>：
+<ul>
+<li>常规分割：1.8-2 Gy × 25-28 次</li>
+<li>大分割：5-10 Gy × 5 次（Hypofractionated Proton SBRT）</li>
+</ul></li>
+<li><strong>精度</strong>：±1-3 mm（带 Bragg 峰）</li>
+<li><strong>优势</strong>：
+<ul>
+<li><strong>剂量落差陡</strong>，Bragg 峰后剂量≈0，正常组织保护优秀</li>
+<li>生物效应约等于 X 线（RBE≈1.1）</li>
+</ul></li>
+<li><strong>局限</strong>：
+<ul>
+<li>设备昂贵，全国不到 15 台</li>
+<li>呼吸运动+组织密度变化对 Bragg 峰位置敏感</li>
+<li>无 Ⅲ 期证据证明 PDAC OS 获益</li>
+</ul></li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li><strong>MGH Ⅱ 期</strong>（Hong 2014 <em>JCO</em>, PMID:
+24591476；Terezakis）：LAPC 术前质子+GEM，安全性可，OS 无 Ⅲ 期证据</li>
+<li><strong>JHU Ⅱ 期</strong>：BR-PDAC 术前质子，pCR/局部控制改善</li>
+<li><strong>NCT01683422、NCT02598349</strong> 等在研</li>
+<li>NCCN v2.2025 PDAC：未单独推荐，属"可选技术"</li>
+</ul></li>
+<li><strong>中国机构</strong>：
+<ul>
+<li><strong>上海质子重离子中心（SPHIC）</strong> ⭐ 全国最大</li>
+<li>山东万杰质子（早期设备）</li>
+<li>淄博万杰、北京协和质子（在建）</li>
+<li>日本万赛（福岛/兵库）——跨境自费</li>
+</ul></li>
+<li><strong>费用</strong>：自费约 <strong>30-50 万</strong>（上海 SPHIC
+PDAC 约 33 万起）</li>
+<li><strong>对本例适用性</strong>：❌ <strong>明确不推荐</strong>
+<ul>
+<li>Ⅳ 期广泛肝转移，无 OS 获益证据</li>
+<li>30-50 万自费，家庭负担极重</li>
+<li>稳定后姑息剂量场景不必用粒子（光子 SBRT/EBRT 即可）</li>
+<li><strong>警惕营销"质子治愈胰腺癌"</strong> → 无 Ⅳ 期循证</li>
+</ul></li>
+</ul>
+<h4 id="11-重离子碳离子carbon-ion-radiotherapycirt">11.
+重离子（碳离子）Carbon Ion Radiotherapy（CIRT）</h4>
+<ul>
+<li><strong>原理</strong>：碳-12 离子加速至 70% 光速，Bragg 峰 +
+<strong>高线性能量传递 LET</strong>，<strong>RBE 2-3
+倍于光子</strong></li>
+<li><strong>典型剂量</strong>：4-5 GyE × 8-12 次 = 40-60 GyE</li>
+<li><strong>精度</strong>：±1-3 mm，RBE 2-3×</li>
+<li><strong>优势</strong>：
+<ul>
+<li>Bragg 峰更陡</li>
+<li>对乏氧肿瘤（PDAC 典型乏氧）有效</li>
+<li>治疗周期短（2-3 周 vs 光子 5-6 周）</li>
+</ul></li>
+<li><strong>局限</strong>：设备极少、费用最高、Ⅲ 期证据仍缺</li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li><strong>GUNMA 单中心系列</strong>（Shinoto et al. <em>IJROBP</em>
+2016, PMID: 26972021）：LAPC 55.2 GyE/12f + GEM，2 年 OS 46%</li>
+<li><strong>千叶 QST 全国注册</strong>：LAPC 中位 OS 21.5 月</li>
+<li><strong>⚠️ 均为 Ⅱ 期单臂，无 Ⅲ 期 vs 光子比较</strong></li>
+<li><strong>爸爸 Ⅳ 期广泛肝转移无循证依据</strong></li>
+</ul></li>
+<li><strong>中国机构</strong>：
+<ul>
+<li><strong>上海质子重离子中心 SPHIC</strong> ⭐
+中国唯一同时开展质子+重离子</li>
+<li><strong>兰州近代物理所（HIMM）</strong>（西北）</li>
+<li><strong>甘肃武威重离子中心</strong>（近物所派生）</li>
+<li>日本 QST（千叶/群马）、德国 HIT（跨境自费）</li>
+</ul></li>
+<li><strong>费用</strong>：自费约 <strong>30-60 万</strong>（SPHIC
+重离子 PDAC 约 40-50 万起）</li>
+<li><strong>对本例适用性</strong>：❌ <strong>明确不推荐</strong>
+<ul>
+<li>Ⅳ 期广泛肝转移<strong>没有任何重离子 Ⅳ 期 mPDAC 循证</strong></li>
+<li>30-60 万极重自费</li>
+<li>稳定后姑息不需要粒子</li>
+<li><strong>⚠️
+特别警惕"日本重离子治愈胰腺癌"跨境营销</strong>：日本重离子证据仅限于<strong>局部晚期
+T4N0-1M0</strong>，Ⅳ 期无适应证；跨境包价 60-120 万</li>
+</ul></li>
+</ul>
+<h4 id="12-bnctboron-neutron-capture-therapy-硼中子俘获治疗">12.
+BNCT（Boron Neutron Capture Therapy 硼中子俘获治疗）</h4>
+<ul>
+<li><strong>原理</strong>：静脉注射硼载体（BPA）→ 富集肿瘤 →
+外照低能热中子 → 硼-10 俘获中子后产生高 LET α 粒子（射程 5-9
+μm），<strong>细胞级选择性杀伤</strong></li>
+<li><strong>典型剂量</strong>：单次 1-2 小时中子照射</li>
+<li><strong>精度</strong>：细胞级（依赖硼富集度）</li>
+<li><strong>优势</strong>：细胞选择性；理论对浸润性肿瘤有效</li>
+<li><strong>局限</strong>：设备极少（世界不到 20 台）；硼载体是瓶颈</li>
+<li><strong>PDAC 循证</strong>：<strong>PDAC 探索期</strong>，无 Ⅱ
+期以上证据；主要适应证为<strong>头颈复发肿瘤、脑胶质瘤、皮肤恶性黑色素瘤</strong></li>
+<li><strong>中国机构</strong>：
+<ul>
+<li><strong>厦门弘爱医院</strong>（2024 起）</li>
+<li><strong>南京 BNCT 中心</strong>（在建）</li>
+<li>日本住友重工（大阪、京都）</li>
+</ul></li>
+<li><strong>费用</strong>：自费约 30-100 万</li>
+<li><strong>对本例适用性</strong>：❌ <strong>不推荐</strong>
+<ul>
+<li>PDAC 无循证</li>
+<li>设备/技术均属实验性</li>
+<li><strong>⚠️ 任何机构推销"BNCT 治胰腺癌"应视为过度营销</strong></li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="c-内照射--近距离放疗brachytherapy">C. 内照射 /
+近距离放疗（Brachytherapy）</h3>
+<h4 id="13-125i-粒子植入iodine-125-seed-implantation">13. 125I
+粒子植入（Iodine-125 Seed Implantation）</h4>
+<ul>
+<li><strong>原理</strong>：CT/EUS 引导下将碘-125
+密封微粒（约米粒大小，半衰期 60
+天）永久性植入肿瘤内，持续低剂量率放射（半径 1.7 cm）</li>
+<li><strong>典型剂量</strong>：累积 100-160 Gy（约 6-12
+个月释放完毕）</li>
+<li><strong>精度</strong>：亚 mm（针尖精度）</li>
+<li><strong>优势</strong>：
+<ul>
+<li>局部剂量高、正常组织受量低</li>
+<li>一次植入长期作用，无需重复</li>
+<li>门诊或短住院即可</li>
+</ul></li>
+<li><strong>局限</strong>：
+<ul>
+<li>粒子迁移风险（罕见入血管、入胆道）</li>
+<li>PDAC 深部+邻近血管操作难度大</li>
+<li><strong>无 Ⅲ 期 OS 获益证据</strong></li>
+</ul></li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li><strong>中国专家共识</strong>（2017
+版《胰腺癌粒子植入治疗专家共识》）：LAPC 姑息止痛+局部控制</li>
+<li>Wang et al. 系列（<em>JVIR</em> 2019 等）：LAPC/局部复发局部控制率
+60-70%</li>
+<li>Ⅱ 期证据为主，与 EBRT 头对头无优势</li>
+</ul></li>
+<li><strong>中国机构</strong>：301、北大肿瘤、天津肿瘤、山东省肿瘤（介入科主导）</li>
+<li><strong>费用</strong>：医保约 3-8 万</li>
+<li><strong>对本例适用性</strong>：❌ <strong>不推荐</strong>
+<ul>
+<li>Ⅳ 期广泛肝转移，无原发灶粒子植入的 OS 获益依据</li>
+<li>胆道支架+SEMS 在位，操作路径受限</li>
+<li>活动感染下有源污染风险</li>
+<li>稳定后如为姑息止痛，光子姑息 EBRT 更简单</li>
+</ul></li>
+</ul>
+<h4 id="14-iortintraoperative-radiotherapy-术中放疗">14.
+IORT（Intraoperative Radiotherapy 术中放疗）</h4>
+<ul>
+<li><strong>原理</strong>：开腹术中直视下用移动式加速器/电子束直接照射瘤床，一次给予大剂量</li>
+<li><strong>典型剂量</strong>：10-20 Gy 单次</li>
+<li><strong>精度</strong>：术野直视</li>
+<li><strong>优势</strong>：正常组织移开保护、一次完成</li>
+<li><strong>局限</strong>：需开腹、剂量单次高、Ⅲ 期证据缺</li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li>1980-90 年代 Mayo/MSKCC 系列，未显示 OS 获益</li>
+<li>目前 NCCN 未推荐，属<strong>边缘化技术</strong></li>
+</ul></li>
+<li><strong>中国机构</strong>：少数（协和、301 曾用）</li>
+<li><strong>费用</strong>：医保约 3-6 万（含手术费另计）</li>
+<li><strong>对本例适用性</strong>：❌ <strong>绝对不适用</strong>
+<ul>
+<li>爸爸不可手术（SMV 受压+SMA 可疑+Ⅳ 期）</li>
+<li>无 IORT 适应证</li>
+</ul></li>
+</ul>
+<h4 id="15-hdr-brachytherapy高剂量率近距离放疗">15. HDR
+Brachytherapy（高剂量率近距离放疗）</h4>
+<ul>
+<li><strong>原理</strong>：铱-192
+高活度源短时间进入体内导管照射（后装），10-20 分钟/次</li>
+<li><strong>典型剂量</strong>：5-8 Gy × 3-5 次</li>
+<li><strong>精度</strong>：mm 级</li>
+<li><strong>优势</strong>：正常组织保护好、门诊可做</li>
+<li><strong>PDAC 循证</strong>：主要用于<strong>妇科（宫颈/子宫内膜）+
+前列腺</strong>；PDAC 罕用（胆管腔内 HDR
+是极少数场景，用于恶性胆道梗阻姑息）</li>
+<li><strong>中国机构</strong>：全国三甲放疗科</li>
+<li><strong>费用</strong>：医保约 2-5 万</li>
+<li><strong>对本例适用性</strong>：⚠️
+<strong>仅一种极特殊场景可能</strong>
+<ul>
+<li>若胆道支架换成金属支架仍反复堵塞→ 极少数中心尝试 ERCP 引导下胆管腔内
+HDR 姑息（证据有限，Ortner 2003 <em>Gut</em> PMID:14570733）</li>
+<li>常规不推荐</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="d-消融性局部治疗家属易混淆为放疗">D.
+消融性局部治疗（家属易混淆为"放疗"）</h3>
+<blockquote>
+<p>⚠️ 以下 4
+项<strong>均非放射性治疗</strong>，属"局部消融"范畴。因家属常与放疗一并咨询，纳入本综述。</p>
+</blockquote>
+<h4 id="16-hifu-海扶刀high-intensity-focused-ultrasound">16. HIFU
+海扶刀（High-Intensity Focused Ultrasound）</h4>
+<ul>
+<li><strong>原理</strong>：<strong>超声波聚焦</strong>在肿瘤内产生
+60-90℃ 高温，热凝固坏死；无创、无射线</li>
+<li><strong>典型方案</strong>：1-2 次门诊/短住院，每次 1-3 小时</li>
+<li><strong>精度</strong>：±3 mm 焦点，实时超声/MR 引导</li>
+<li><strong>优势</strong>：无创、无射线、可重复</li>
+<li><strong>局限</strong>：
+<ul>
+<li>声窗要求高（气体/骨骼阻挡）</li>
+<li><strong>胰腺深部+胃肠气体干扰是主要障碍</strong></li>
+<li>疗效数据碎片化</li>
+</ul></li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li>Wang 2011 <em>Cancer</em> 等中国单中心系列：LAPC 姑息止痛率
+60-80%</li>
+<li><strong>NCT02323776</strong> 等 Ⅱ 期试验（LAPC/姑息止痛）</li>
+<li><strong>无 Ⅲ 期 OS 获益证据</strong></li>
+<li>主要作为<strong>姑息止痛</strong>手段</li>
+</ul></li>
+<li><strong>中国机构</strong>：
+<ul>
+<li><strong>重庆海扶医院</strong>
+⭐（技术发源地，重庆医科大学王智彪团队）</li>
+<li>301、北大肿瘤、复旦肿瘤等三甲介入科（少数）</li>
+</ul></li>
+<li><strong>费用</strong>：自费约 5-15 万</li>
+<li><strong>对本例适用性</strong>：❌ <strong>不推荐</strong>
+<ul>
+<li><strong>SEMS
+金属支架+胆道塑料支架+肠道内气体</strong>严重阻挡声窗</li>
+<li>胃衰竭下胃内积液进一步干扰</li>
+<li>Ⅳ 期广泛肝转移，姑息止痛已有更简单选择（阿片+神经阻滞+短程
+EBRT）</li>
+<li><strong>⚠️ 警惕"海扶治愈胰腺癌"营销</strong> →
+只是姑息，无根治证据</li>
+</ul></li>
+</ul>
+<h4 id="17-ire-纳米刀irreversible-electroporation">17. IRE
+纳米刀（Irreversible Electroporation）</h4>
+<ul>
+<li><strong>原理</strong>：3-4 根针状电极围绕肿瘤，脉冲高压电场（1500
+V/cm）在细胞膜打出永久孔洞导致凋亡；<strong>非热消融</strong>，血管神经胶原纤维保留</li>
+<li><strong>典型方案</strong>：术中/CT/EUS 引导下 1 次操作</li>
+<li><strong>精度</strong>：亚 mm</li>
+<li><strong>优势</strong>：
+<ul>
+<li>保留血管、胆管、神经（PDAC 靠血管的特点适合）</li>
+<li>可用于紧贴 SMV/SMA 的 LAPC</li>
+</ul></li>
+<li><strong>局限</strong>：
+<ul>
+<li><strong>需全麻+肌松</strong>（电场引起肌肉抽搐）</li>
+<li><strong>心律失常风险</strong>（房颤/室颤，需 ECG 同步）</li>
+<li>Ⅲ 期证据有限</li>
+</ul></li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li><strong>Martin 2015 <em>Ann Surg</em></strong>（PMID:
+25607370）：LAPC IRE + 化疗，OS 24 月（vs 化疗单药 12-15 月）→ Ⅱ
+期证据</li>
+<li><strong>NCT01897454</strong>（DIRECT 试验）Ⅲ 期 LAPC 完成，2024
+初步报告 IRE + 化疗改善 OS</li>
+<li><strong>PANFIRE-3</strong> 荷兰试验在研</li>
+<li>中国专家共识 2019 版</li>
+<li><strong>⚠️ 适应证严格限于 LAPC（非 Ⅳ 期）+ 肿瘤≤4-5 cm +
+无远处转移</strong></li>
+</ul></li>
+<li><strong>中国机构</strong>：<strong>复旦肿瘤</strong>（虞先濬团队，中国
+IRE 主要中心）、301、北大肿瘤、天津肿瘤、上海肿瘤</li>
+<li><strong>费用</strong>：自费约 <strong>15-25
+万</strong>（不含全麻+住院）</li>
+<li><strong>对本例适用性</strong>：❌ <strong>明确不推荐</strong>
+<ul>
+<li><strong>Ⅳ 期广泛肝转移是绝对禁忌</strong>（IRE 适应证限于 M0
+LAPC）</li>
+<li><strong>心血管史</strong>（高血压 3 级 + 脑出血 + 脑梗死）+
+<strong>血管性帕金森综合征</strong> = 全麻+电脉冲双重风险</li>
+<li>胃衰竭+SEMS+胆道支架不构成手术条件</li>
+<li><strong>⚠️ 警惕民营医院"纳米刀+免疫综合治疗"套餐</strong> →
+违背适应证</li>
+</ul></li>
+</ul>
+<h4 id="18-rfa--mwaradiofrequency--microwave-ablation-射频微波消融">18.
+RFA / MWA（Radiofrequency / Microwave Ablation 射频/微波消融）</h4>
+<ul>
+<li><strong>原理</strong>：CT/超声引导下穿刺针在肿瘤内产生高频电流（RFA）或微波（MWA），60-100℃
+热消融</li>
+<li><strong>典型方案</strong>：1 次操作，20-30 分钟</li>
+<li><strong>精度</strong>：mm 级</li>
+<li><strong>优势</strong>：微创、门诊可做、可重复</li>
+<li><strong>局限</strong>：
+<ul>
+<li>单灶&lt;3 cm 疗效最佳</li>
+<li>邻近大血管有"热沉降效应"（heat sink）导致消融不全</li>
+<li>PDAC 靠血管深部难做</li>
+</ul></li>
+<li><strong>PDAC 循证</strong>：
+<ul>
+<li><strong>胰腺原发灶 RFA/MWA
+循证极弱</strong>，主要用于<strong>肝转移灶消融</strong></li>
+<li>肝转移&lt;3 cm 单灶 RFA 5 年 OS
+20-30%（结直肠癌肝转移证据外推）</li>
+<li>NCCN 未推荐 PDAC 原发灶 RFA</li>
+</ul></li>
+<li><strong>中国机构</strong>：全国三甲介入科普及</li>
+<li><strong>费用</strong>：医保约 1-3 万/灶</li>
+<li><strong>对本例适用性</strong>：❌ <strong>不推荐</strong>
+<ul>
+<li>肝多发转移，无法逐灶消融</li>
+<li>系统治疗有效时不应替代</li>
+<li>胰腺原发灶无循证</li>
+</ul></li>
+</ul>
+<h4 id="19-cryoablation-冷冻消融">19. Cryoablation 冷冻消融</h4>
+<ul>
+<li><strong>原理</strong>：氩气/氦气循环使针尖降至
+-160℃，形成冰球杀伤肿瘤</li>
+<li><strong>典型方案</strong>：1-2 次冻融循环</li>
+<li><strong>精度</strong>：mm 级</li>
+<li><strong>优势</strong>：疼痛轻、可实时超声看冰球</li>
+<li><strong>局限</strong>：设备+耗材贵；PDAC 应用少</li>
+<li><strong>PDAC 循证</strong>：有限证据（Xu 2008
+系列），未进入指南</li>
+<li><strong>中国机构</strong>：少数（301、天津肿瘤）</li>
+<li><strong>费用</strong>：自费 5-10 万</li>
+<li><strong>对本例适用性</strong>：❌ <strong>不推荐</strong></li>
+</ul>
+<hr />
+<h3 id="e-系统性放射性药物systemic-radionuclide-therapy">E.
+系统性放射性药物（Systemic Radionuclide Therapy）</h3>
+<h4 id="20-177lu--90y-sirt--225ac-等靶向核素">20. 177Lu / 90Y-SIRT /
+225Ac 等靶向核素</h4>
+<ul>
+<li><strong>原理</strong>：将 β/α 放射性核素（177Lu / 90Y /
+225Ac）与靶向配体（PSMA/DOTATATE/SST/其他抗体）偶联，静脉注射后核素累积于表达靶点的肿瘤细胞</li>
+<li><strong>PDAC 相关情况</strong>：
+<ul>
+<li><strong>177Lu-PSMA</strong>：适应证为<strong>去势抵抗前列腺癌</strong>（PDAC
+不表达 PSMA）</li>
+<li><strong>177Lu-DOTATATE</strong>（Lutathera）：适应证为<strong>神经内分泌肿瘤
+NET</strong>（PDAC 是外分泌腺癌，SSTR
+阴性，<strong>不适用</strong>）</li>
+<li><strong>⚠️
+例外</strong>：胰腺神经内分泌肿瘤（pNET，占胰腺肿瘤&lt;5%）适用；<strong>爸爸是
+PDAC 不是 pNET</strong></li>
+</ul></li>
+<li><strong>PDAC 循证</strong>：❌ <strong>PDAC 无 PSMA/SSTR
+靶点表达，不适用</strong></li>
+</ul>
+<p><strong>90Y-SIRT（选择性内放射，钇-90 微球）：</strong></p>
+<ul>
+<li><strong>原理</strong>：肝动脉插管注入含钇-90
+树脂/玻璃微球，卡在肝转移灶血管床局部照射（β 射程 2.5 mm）</li>
+<li><strong>PDAC 肝转移证据</strong>：
+<ul>
+<li>有限证据（Cao 2010 系列、Kim 2018
+综述）：肝优势型转移的姑息治疗</li>
+<li>未进入 NCCN PDAC 主流路径</li>
+<li>主要用于<strong>结直肠癌肝转移 + 肝细胞癌</strong></li>
+</ul></li>
+<li><strong>对本例适用性</strong>：❌ <strong>不推荐</strong>
+<ul>
+<li>爸爸是"肝多发转移"非"肝优势型（liver-dominant）"，主病仍在胰腺</li>
+<li>全身治疗（AG/GFH375/nal-IRI）是标准</li>
+<li>90Y-SIRT 15-40 万自费</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="第三部分pdac-放疗循证核心结论">第三部分：PDAC
+放疗循证核心结论</h2>
+<h3 id="31-nccn-v22025-pdac-指南关键要点放疗部分">3.1 NCCN v2.2025 PDAC
+指南关键要点（放疗部分）</h3>
+<p><strong>分层策略：</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>分期</th>
+<th>放疗定位</th>
+<th>证据等级</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>可切除 PDAC</td>
+<td>新辅助 CRT/SBRT 可选（PREOPANC）</td>
+<td>Cat 2A</td>
+</tr>
+<tr class="even">
+<td>临界可切除 BR-PDAC</td>
+<td>新辅助 mFOLFIRINOX/AG ± CRT/SBRT</td>
+<td>Cat 2A</td>
+</tr>
+<tr class="odd">
+<td>局部晚期 LAPC</td>
+<td>诱导化疗 4-6 月后 CRT/SBRT</td>
+<td>Cat 2A（LAP07 未证 OS，局控获益）</td>
+</tr>
+<tr class="even">
+<td><strong>Ⅳ 期 mPDAC（本例）</strong></td>
+<td><strong>全身治疗为主，放疗仅限特定姑息</strong></td>
+<td><strong>不推荐常规原发灶放疗</strong></td>
+</tr>
+<tr class="odd">
+<td>术后（R1 切缘）</td>
+<td>辅助 CRT 可选</td>
+<td>Cat 2B（RTOG 0848 未证 OS）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-核心循证试验">3.2 核心循证试验</h3>
+<ol type="1">
+<li><p><strong>PREOPANC</strong>（Versteijne et al. <em>NEJM</em> 2020,
+PMID: 32530764）</p>
+<ul>
+<li>可切除/BR-PDAC，新辅助 CRT + 手术 vs 直接手术</li>
+<li>5 年 OS 20.5% vs 6.5%（长期随访）→ 新辅助 CRT 改善 OS</li>
+<li><strong>本例不适用</strong>（Ⅳ 期不可手术）</li>
+</ul></li>
+<li><p><strong>LAP07</strong>（Hammel et al. <em>JAMA</em> 2016, PMID:
+27139057）</p>
+<ul>
+<li>LAPC 诱导 GEM+厄洛替尼 4 月后：CRT 54 Gy vs 化疗</li>
+<li>OS 无显著差异（15.2 vs 16.5 月），CRT 组局部进展率降</li>
+<li><strong>本例不适用</strong>（LAPC 而非 Ⅳ 期）</li>
+</ul></li>
+<li><p><strong>A021501</strong>（Katz et al. <em>JAMA Oncol</em> 2022,
+PMID: 36107416）</p>
+<ul>
+<li>BR-PDAC 术前 mFOLFIRINOX ± SBRT，SBRT 未达 OS 终点</li>
+<li><strong>本例不适用</strong>（Ⅳ 期）</li>
+</ul></li>
+<li><p><strong>SMART Trial</strong>（Parikh et al. <em>IJROBP</em> 2023,
+PMID: 36878399）</p>
+<ul>
+<li>LAPC/BR，MRIdian 50 Gy/5f 在线自适应 SBRT</li>
+<li>2 年 OS <strong>53.6%</strong>，Grade ≥3 GI 毒性
+<strong>0%</strong></li>
+<li>PDAC 单独最强证据，但<strong>仍限于 LAPC</strong></li>
+</ul></li>
+<li><p><strong>MASTERPLAN</strong>（Chang et al. <em>Lancet Oncol</em>
+2023, PMID: 37541263）</p>
+<ul>
+<li>LAPC 化疗后 SBRT，局部控制显著改善</li>
+<li><strong>本例不适用</strong>（Ⅳ 期）</li>
+</ul></li>
+<li><p><strong>Herman SBRT LAPC Ⅱ 期</strong>（<em>Cancer</em> 2015,
+PMID: 25940564）</p>
+<ul>
+<li>33 Gy/5f + GEM，局部控制 78%，OS 13.9 月</li>
+<li><strong>本例不适用</strong></li>
+</ul></li>
+<li><p><strong>Ⅳ 期 mPDAC 姑息放疗证据</strong>（有限）</p>
+<ul>
+<li>Ceha 2000 <em>IJROBP</em>（PMID: 10925989）：50 Gy
+常规分割姑息止痛，缓解率 ~60%</li>
+<li>Buwenge 2018 <em>Radiat Oncol</em> 综述：短程 30 Gy/10f 或 SBRT 25
+Gy/5f 姑息止痛证据</li>
+<li>NCCN v2.2025：Ⅳ 期难治性癌痛可考虑姑息 EBRT 30 Gy/10f（Cat 2A）</li>
+</ul></li>
+</ol>
+<h3
+id="33-astro-2019-定位放疗指南palta-et-al-pract-radiat-oncol-2019">3.3
+ASTRO 2019 定位放疗指南（Palta et al. <em>Pract Radiat Oncol</em>
+2019）</h3>
+<ul>
+<li>所有胰腺放疗必须 IGRT</li>
+<li>LAPC 优先大分割/SBRT</li>
+<li>Ⅳ 期患者放疗以症状姑息为唯一目标</li>
+</ul>
+<h3 id="34-esmo-2023-pdac-临床实践指南">3.4 ESMO 2023 PDAC
+临床实践指南</h3>
+<ul>
+<li>Ⅳ 期一线：AG 或 FOLFIRINOX</li>
+<li>Ⅳ 期二线：nal-IRI + 5-FU/LV</li>
+<li><strong>Ⅳ 期放疗</strong>：仅限于难治性局部症状（疼痛、SEMS
+上游压迫、出血、梗阻）</li>
+</ul>
+<hr />
+<h2
+id="第四部分本例患者三层决策建议">第四部分：本例患者三层决策建议</h2>
+<h3 id="层-1当前2026-07-23绝对不适合任何放疗">层
+1：当前（2026-07-23）绝对不适合任何放疗</h3>
+<p><strong>循证依据（多重叠加）：</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>禁忌因素</th>
+<th>循证依据</th>
+<th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>活动感染 PCT 0.700↑</strong></td>
+<td>ASTRO/RTOG 所有 SBRT 协议排除标准</td>
+<td>❌ 绝对禁忌</td>
+</tr>
+<tr class="even">
+<td><strong>Grade 3 胃衰竭</strong></td>
+<td>ACG 2022，任何 GI 放疗会加剧</td>
+<td>❌ 绝对禁忌</td>
+</tr>
+<tr class="odd">
+<td><strong>胆道支架待换+SEMS 在位</strong></td>
+<td>SBRT 十二指肠溃疡/穿孔证据（Murphy 2010）</td>
+<td>❌ 高危</td>
+</tr>
+<tr class="even">
+<td><strong>ECOG 2-3</strong></td>
+<td>SBRT 试验入组标准通常 ECOG 0-1</td>
+<td>❌ 排除</td>
+</tr>
+<tr class="odd">
+<td><strong>恶病质活动期</strong></td>
+<td>放疗致进一步蛋白消耗（EORTC 2022）</td>
+<td>❌ 加剧</td>
+</tr>
+<tr class="even">
+<td><strong>Ⅳ 期广泛肝转移</strong></td>
+<td>NCCN v2.2025 不推荐常规原发灶放疗</td>
+<td>❌ 无 OS 获益</td>
+</tr>
+<tr class="odd">
+<td><strong>血管性帕金森综合征</strong></td>
+<td>长期卧床固定放疗定位困难</td>
+<td>⚠️ 相对禁忌</td>
+</tr>
+</tbody>
+</table>
+<p><strong>结论</strong>：当前放疗<strong>弊 &gt;&gt;
+利</strong>，无任何放疗指征。全身治疗（AG 桥接/GFH375/nal-IRI）+
+局部支持（NJ 管/EUS-HGS/抗生素升级）是唯一合理路径。</p>
+<h3 id="层-2稳定后可能考虑的姑息场景">层
+2：稳定后可能考虑的姑息场景</h3>
+<p><strong>前提</strong>：Grade 3
+胃衰竭缓解、感染完全控制（PCT&lt;0.1）、ECOG 恢复至
+0-1、营养/血液学达标。</p>
+<table>
+<thead>
+<tr class="header">
+<th>场景</th>
+<th>方案</th>
+<th>证据</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>难治性癌痛（阿片无效）</td>
+<td>姑息 EBRT 30 Gy/10 次</td>
+<td>NCCN v2.2025 Cat 2A</td>
+</tr>
+<tr class="even">
+<td>骨转移疼痛</td>
+<td>单次 8 Gy 或 20 Gy/5 次</td>
+<td>NCCN 骨转移标准</td>
+</tr>
+<tr class="odd">
+<td>SEMS 上游肿瘤压迫加剧</td>
+<td>短程 SBRT（证据有限）</td>
+<td>Herman 2015 参考</td>
+</tr>
+<tr class="even">
+<td>局限性肝转移出血</td>
+<td>单次 8-10 Gy 姑息</td>
+<td>个案报道</td>
+</tr>
+</tbody>
+</table>
+<p><strong>技术选择</strong>：若考虑姑息，光子 SBRT/短程 EBRT
+是标准，<strong>无需粒子（质子/重离子）</strong>。</p>
+<h3 id="层-3明确不推荐的方法--循证反驳">层 3：明确不推荐的方法 +
+循证反驳</h3>
+<table>
+<thead>
+<tr class="header">
+<th>不推荐方法</th>
+<th>反驳理由</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>❌ Ⅳ 期广泛肝转移做原发灶质子/重离子"根治性放疗"</td>
+<td>无循证；NCCN 不推荐</td>
+</tr>
+<tr class="even">
+<td>❌ 日本重离子跨境包价 60-120 万</td>
+<td>日本 CIRT 循证仅限 T4N0-1M0 LAPC，Ⅳ 期无适应证</td>
+</tr>
+<tr class="odd">
+<td>❌ 民营机构"海扶+纳米刀+粒子植入综合套餐"</td>
+<td>违背单一疗法适应证叠加，无循证</td>
+</tr>
+<tr class="even">
+<td>❌ 纳米刀 IRE 治疗 Ⅳ 期</td>
+<td>IRE 适应证限于 M0 LAPC ≤4-5 cm，Ⅳ 期禁忌</td>
+</tr>
+<tr class="odd">
+<td>❌ 用放疗"替代"化疗</td>
+<td>一线化疗（AG）+ 二线（nal-IRI/GFH375）是标准</td>
+</tr>
+<tr class="even">
+<td>❌ BNCT 治胰腺癌</td>
+<td>无 PDAC 循证</td>
+</tr>
+<tr class="odd">
+<td>❌ 177Lu-DOTATATE 治 PDAC</td>
+<td>PDAC 非 NET，SSTR 阴性</td>
+</tr>
+<tr class="even">
+<td>❌ Gamma Knife 治腹部肿瘤</td>
+<td>颅内适应证；"体部伽玛刀"精度差于 SBRT</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2
+id="第五部分家属沟通版一页纸速览">第五部分：家属沟通版一页纸速览</h2>
+<h3 id="速览表20-种方法--本例适用性">速览表：20 种方法 × 本例适用性</h3>
+<table>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>方法</th>
+<th>简称类别</th>
+<th>对爸爸适用性</th>
+<th>一句话理由</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>3D-CRT</td>
+<td>光子</td>
+<td>❌</td>
+<td>精度低，已被 IMRT 取代</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>IMRT</td>
+<td>光子</td>
+<td>⚠️ 姑息可能</td>
+<td>5-6 周疗程，当前禁忌，稳定后姑息可考虑</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>VMAT</td>
+<td>光子</td>
+<td>⚠️ 同 IMRT</td>
+<td>IMRT 升级版</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>IGRT</td>
+<td>技术叠加</td>
+<td>—</td>
+<td>是位置校准技术，非独立疗法</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>TOMO 刀</td>
+<td>光子</td>
+<td>⚠️ 不必要</td>
+<td>长靶区场景对本例不必要</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>SBRT/SABR</td>
+<td>光子</td>
+<td>❌ 当前禁忌</td>
+<td>活动感染+SEMS+Ⅳ 期广泛转移</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>射波刀</td>
+<td>光子（追踪）</td>
+<td>❌ 当前禁忌</td>
+<td>SBRT 同问题+需植入金标记</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>MR-Linac</td>
+<td>光子（MR 引导）</td>
+<td>❌ 当前禁忌</td>
+<td>证据在 LAPC 非 Ⅳ 期</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Gamma Knife</td>
+<td>光子 SRS</td>
+<td>❌ 不适用</td>
+<td>颅内适应证</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>质子刀</td>
+<td>粒子</td>
+<td>❌ 不推荐</td>
+<td>Ⅳ 期无 OS 循证，30-50 万自费</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>重离子（碳离子）</td>
+<td>粒子</td>
+<td>❌ 明确不推荐</td>
+<td>Ⅳ 期无循证，30-60 万自费，日本跨境营销陷阱</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>BNCT</td>
+<td>粒子</td>
+<td>❌ 不适用</td>
+<td>PDAC 无循证</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>125I 粒子植入</td>
+<td>近距离</td>
+<td>❌ 不推荐</td>
+<td>Ⅳ 期无 OS 依据，路径受限</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>IORT 术中放疗</td>
+<td>术中</td>
+<td>❌ 绝对不适用</td>
+<td>不可手术</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>HDR 近距离</td>
+<td>近距离</td>
+<td>⚠️ 特殊场景</td>
+<td>极少数胆管腔内 HDR 姑息</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>HIFU 海扶刀</td>
+<td>超声（非放射）</td>
+<td>❌ 不推荐</td>
+<td>声窗被 SEMS/气体阻挡</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>IRE 纳米刀</td>
+<td>电场（非放射）</td>
+<td>❌ 明确不推荐</td>
+<td>适应证限 M0 LAPC；心血管+帕金森高危</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>RFA/MWA</td>
+<td>热消融</td>
+<td>❌ 不推荐</td>
+<td>肝多发转移无法逐灶</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Cryo 冷冻</td>
+<td>冷冻</td>
+<td>❌ 不推荐</td>
+<td>PDAC 无循证</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>177Lu/90Y-SIRT</td>
+<td>核素</td>
+<td>❌ 不适用</td>
+<td>PDAC 无靶点表达</td>
+</tr>
+</tbody>
+</table>
+<h3 id="一句话原则">一句话原则</h3>
+<blockquote>
+<p><strong>当前阶段放疗不是选项，全身治疗（AG 桥接 / GFH375 试验 /
+nal-IRI 兜底）+ 局部支持（NJ 管 / EUS-HGS 换支架 /
+抗生素升级）是主线。稳定后仅在特定姑息场景（难治性癌痛、骨转移、局限性肿瘤压迫）考虑光子
+SBRT 或短程 EBRT，无需粒子。</strong></p>
+</blockquote>
+<h3 id="骗局识别-5-大红旗">骗局识别 5 大红旗</h3>
+<ol type="1">
+<li>❌ 承诺"根治""治愈""控制转移"</li>
+<li>❌ Ⅳ 期广泛肝转移推销质子/重离子"根治性放疗"（无循证）</li>
+<li>❌ "碳离子/质子替代化疗"（违背 NCCN）</li>
+<li>❌ 民营机构"海扶+纳米刀+粒子+免疫组合套餐" 30-100 万预付</li>
+<li>❌ 跨境"日本重离子包价 60-120 万"（日本 CIRT 循证仅限 LAPC）</li>
+</ol>
+<p><strong>⚠️ 核心记忆句</strong>：</p>
+<ul>
+<li><strong>Ⅳ 期 mPDAC 的循证共识：放疗 =
+姑息角色</strong>，不是根治手段</li>
+<li><strong>绕过全身治疗直接做局部治疗</strong>（放疗/消融）=
+违背指南</li>
+<li>任何"新技术根治胰腺癌"营销 → 索取 <strong>NCT/ChiCTR 注册号 + Ⅲ
+期数据</strong>，无则拒绝</li>
+</ul>
+<hr />
+<h2 id="免责声明">免责声明</h2>
+<p>本文档为<strong>文献整理，非诊断/治疗建议</strong>。所有决策必须由患者主管医生和
+MDT 团队作出。文献引用截至 2026-07-23，循证证据可能随新研究更新。</p>
+<p>医疗信息严格保密，本文档仅供张建来家人内部参考。</p>
+<hr />
+<p><strong>版本：</strong> v1.0 <strong>生成日期：</strong> 2026-07-23
+<strong>下次更新触发条件：</strong> 出现新姑息放疗证据 / 家属遇到新推销
+/ 病情稳定后 MDT 讨论放疗时机 <strong>签名：</strong> 康康 💪</p>
+</body>
+</html>
